@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+   margin: 0px;
+  }
+
+  @font-face {
+    font-family: 'gtav';
+    src: url(./imagens/pricedown\ bl.otf);
+  }
+  
+  body{
+    background-size: cover;
+    
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.822) ), url(./imagens/01.jpg.5a28d3cad1e54b06b59c2efd10560968.jpg);
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       
+        
+    } 
+    
+  
+    #container{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.712));
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+        width: 350px;
+        height: 320px;
+       
+        
+        
+        
+        
+        border-radius: 10px;
+        box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.596);
+    }
+  
+    #container > #login{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        left: 50%;
+        top: 10px;
+        transform: translate(-50%);
+        position: absolute;
+        font-family: gtav, helvetica, sans-serif;
+        text-shadow: 0px 0px 5px rgba(255, 199, 45, 0.596);
+  
+    }
+  
+    #email1{
+       position: absolute;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 65px;
+        
+    }
+  
+    #email1 > label{
+      margin-bottom: 5px;
+    }
+        
+    #senha1{
+      position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 135px;
+  
+        
+        
+    }
+  
+    #notsenha-login{
+      
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      margin-top: 240px;
+      
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    #notsenha-login:hover{
+        color: white;
+    }
+  
+    button{
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  
+    }
+    #button1{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 195px;
+  
+    }
+  img{
+    width: 35px;
+    height: 35px;
+  }
+  
+  img:hover{
+    width: 38px;
+    height: 38px;
+    
+  }
+  
+  
+    
+  
+    input{
+        font-size: 18px;
+        border-radius: 5px;
+        text-align: center;
+    }
+  
+  
+    a{
+  color: white;
+  text-decoration: none;
+    }
+  
+    a:hover{
+        color: rgb(24, 255, 197);
+        text-decoration: underline;
+    }
+  
+  #vc{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 285px;
+    font-size: 18px;
+  }
+  #voltar{
+    margin-left: 30px;
+  }
+  
+  #cadastro{
+    margin-right: 30px;
+    
+  }
