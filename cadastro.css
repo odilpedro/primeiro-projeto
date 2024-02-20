@@ -113,4 +113,9 @@ input{
     #box2{
         width: 350px;
     }
+
+    #vl{
+
+        margin-bottom: 20px;
+    }
 }
