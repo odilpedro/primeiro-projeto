@@ -14,8 +14,11 @@
 
 body{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.822)),url(./imagens/backgroundbody.jpg);
-    background-size: cover;
     height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right, center;
     font-family: Arial, Helvetica, sans-serif;
     
    
@@ -89,52 +92,20 @@ nav{
 }
 main{
     margin: auto;
-    width: 70%;
+    
+    max-width: 1200px;
     background-image: linear-gradient(to right, rgb(4, 57, 100), rgb(6, 116, 219),rgb(4, 57, 100));
+    
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.596);
 }
 
-@media only screen and (max-width: 1200px) {
- 
-    nav{
-        height: 80px;
-        
-    }
 
- #nav1{
-    display: flex;
-    flex-direction: column;
-    margin-left: none;
-    justify-content: space-between;
-    width: auto;
-    text-align: left;
-    
- }   
-
- #nav1  a{
-    margin-left: 20px;
- }
- #nav2 a{
-    margin-right: 20px;
- }
-
- #nav2{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    
-    text-align: right;
-}
-
-
-}
 
 #fundo{
     position: absolute;
@@ -236,7 +207,7 @@ iframe{
     display: flex;
     margin: auto;
 
-width: 60%;
+width: 70%;
 height: 400px;
 position: relative;
 }
@@ -251,11 +222,10 @@ position: relative;
 
 #buttone{
    
-    position: absolute;
-    
-    left: 47%;
-    
-    bottom: 2%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
 
     background-color: rgb(82, 182, 255);
     font-size: 40px;
@@ -272,3 +242,48 @@ position: relative;
     
 }
 
+@media only screen and (max-width: 1200px) {
+  
+    nav{
+        height: 80px;
+        
+    }
+
+ #nav1{
+    display: flex;
+    flex-direction: column;
+    margin-left: none;
+    justify-content: space-between;
+    width: auto;
+    text-align: left;
+    
+ }   
+
+ #nav1  a{
+    margin-left: 20px;
+ }
+ #nav2 a{
+    margin-right: 20px;
+ }
+
+ #nav2{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    
+    text-align: right;
+}
+ 
+#contato{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+#div-nome-email{
+
+    display: flex;
+    flex-direction: column;
+}
+#divsne
+}
