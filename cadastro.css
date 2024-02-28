@@ -125,3 +125,16 @@ input{
     margin-top: 15px;
     box-shadow: 0px 0px 5px rgba(255, 199, 45, 0.596);
 }
+
+@media only screen and (max-height: 667px){
+    #box1{
+        display: none;
+    }
+    #box2{
+        width: 350px;
+    }
+
+    #vl{
+
+        margin-top: 0px;
+    }
