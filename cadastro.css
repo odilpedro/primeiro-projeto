@@ -90,7 +90,7 @@ input{
     justify-content: space-between;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
     font-size: 22px;
     font-weight: normal;
 }
@@ -118,4 +118,10 @@ input{
 
         margin-top: 15px;
     }
+}
+
+#submit1{
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px rgba(255, 199, 45, 0.596);
 }

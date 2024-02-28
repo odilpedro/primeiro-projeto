@@ -19,40 +19,44 @@
 <div id="box2">
 
 <h1>CRIAR CONTA</h1>
-<div id="nome1">
-<label for="nome">Usuário</label>
-<input type="text">
-</div>
-       <div id="email1">
-        <label for="email">Email</label>
-        <input type="email">
-
-       </div>
-
-                  <div id="numero1">
-                  <label for="number">Número (DDD)</label>
-                 <input type="tel">
-                 </div>
-
-
-         <div>
-            <label for="dn">Data de nascimento</label>
-            <input type="date">
-
-        </div>
-  <div class="senha1">
- <label for="senha">Senha</label>
- <input type="password">
-
-  </div>
-
-          <div class="senha1">
-
-            <label for="senha">Confirme sua senha</label>
-            <input type="password">
-          </div>
-
-
+<form action="cadastro.php" method="post">
+    <div id="nome1">
+    <label for="inome">Usuário</label>
+    <input type="text" name="nome" id="inome" required>
+    </div>
+           <div id="email1">
+            <label for="iemail">Email</label>
+            <input type="email" id="iemail" name="email" required>
+    
+           </div>
+    
+                      <div id="numero1">
+                      <label for="inumero">Número (DDD)</label>
+                     <input type="tel" name="numero" id="inumero" required>
+                     </div>
+    
+    
+             <div>
+                <label for="idn">Data de nascimento</label>
+                <input type="date" name="dn" id="idn" required>
+    
+            </div>
+      <div class="senha1">
+     <label for="isenha">Senha</label>
+     <input type="password" name="senha" id="isenha" required>
+    
+      </div>
+    
+              <div class="senha1">
+    
+                <label for="isenha2">Confirme sua senha</label>
+                <input type="password" name="senha2" id="isenha2" required>
+              </div>
+    
+    <div>
+        <input type="submit" id="submit1">
+    </div>
+</form>
      <div id="vl">
 
         <a id="home" href="./index.html.html">Home</a>
