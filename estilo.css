@@ -265,6 +265,8 @@ position: relative;
    #burguer{
     display: block;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.247);
+    text-align: center;
     
    }
    
