@@ -302,7 +302,13 @@ position: relative;
     margin-right: 0px;
    }
 
- 
+ #video{
+    width: 98%;
+ }
+ #contato{
+    width: 95%;
+    margin-top: 40px;
+ }
 }
 
 
